@@ -1,0 +1,23 @@
+.scroll-bar-div {
+    box-sizing: border-box;
+    position: absolute;
+    height: auto;
+    width: 375px;
+    padding: 0px;
+    top: 50px;
+    bottom: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+.floating-button {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+::-webkit-scrollbar { 
+    display: block; 
+}
